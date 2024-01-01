@@ -9,7 +9,7 @@ the codebase, 9000-line, becomes a beast of ESP8266.
 
 ## For evaluating EX1,
 
-### a. add the ssid/password that your wifi-ap provides to
+### a. add the ssid/password entry that your wifi-ap provides to
 
 const char *const WIFI_CRED_STA[][2]={ // wifi credential, for sta role.
 
@@ -50,3 +50,4 @@ note the auto-gened addresses are http://esp8266-iot-espnow_ts-@.local/ where th
 
 try to, e.g., http://esp8266-iot-espnow_ts-2.local/listcmds
 
+UART is on at 115200,8,n,1,n
