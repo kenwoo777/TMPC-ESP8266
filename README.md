@@ -51,3 +51,7 @@ note the auto-gened addresses are http://esp8266-iot-espnow_ts-@.local/ where th
 try to, e.g., http://esp8266-iot-espnow_ts-2.local/listcmds
 
 UART is on at 115200,8,n,1,n
+
+note: the number of running devices less than the set (CLIDEVS+1) would keep them in STA state; otherwise all would enter espnow mode few minutes later for syncing. (so use less than set to evaluate http stuffs).
+
+## more details please refer to the comments in each example code.
